@@ -1,12 +1,12 @@
 export default function Navbar({ image }) {
   return (
-    <nav className="flex-container padding-10">
+    <nav className="flex-container flex-center padding-10">
       <img
-        className="margin-x flex-items"
+        className="margin-x-10 text-white"
         src={`./img/${image}`}
         alt="Travel logo"
       />
-      <h1 className="margin-x flex-items">My travel journal</h1>
+      <h1 className="margin-x text-white">my travel journal</h1>
     </nav>
   );
 }
